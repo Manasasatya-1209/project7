@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+   form {
+    text-align: center;
+
+   } 
+   h1 {
+    text-align:center;
+   }
+   input {
+    border:2px solid left;
+   }
+   #abc {
+    border-radius: 70px;
+    background-color:darkgoldenrod;
+    margin :0px 300px 0px 300px;
+    
+  
+   } 
+   
+  
+</style>
+<body>
+   
+    <div id="abc">
+    
+      <h1>Registration Form</h1>
+     <form>
+        
+        <label for="fullname">Fullname</label><br>
+        <input type="text"  name="fullname" required><br>
+        <label for="username">Username</label><br>
+        <input type="text"  name="username" required><br>
+        <label for="email">Email</label><br>
+        <input type="email"  name="Email" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" required><br>
+        
+        
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="bdaymonth">Birthday (month and year):</label><br>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br>
+        <label for="myfile">Select a file:</label><br>
+        <input type="file" id="myfile" name="myfile"><br>
+        <label for="phonenumber">Phone number</label><br>
+        <input type="tel"  name="tel" required><br>
+        
+        <label for="homepage">Add your homepage:</label><br>
+        <input type="url" id="homepage" name="homepage"><br>
+        
+        <label for="Gender">Gender </label>
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" name="male" value="male">
+        <label for="female">female</label>
+        <input type="checkbox" id="female" name="female" value="female">
+        <label for="subject">Choose Branch:</label>
+        <select name="Branch" id="course">
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        </select><br>
+        <input type="reset">
+      <div id="submit">
+        <input type="submit" value="Register" required>
+      </div>
+     </form>
+    
+</body>
+</html>
